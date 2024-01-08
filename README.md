@@ -13,6 +13,16 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
             - Binomial Distribution
             - Geometric Distribution
             - Poisson Distribution
+* Lecture 2 (08 Jan, Mon)
+    - Introduction (contd.)
+        - Continuous Random Variables
+            - Uniform Distribution
+            - Exponential Distribution
+            - Normal (Gaussian) Distribution
+        - Joint Distributions
+        - Conditional Distributions
+        - Covariance
+        - Inequalities, Bounds, Theorems
 
 # Grading Policy
 * Quiz-1: 10%
