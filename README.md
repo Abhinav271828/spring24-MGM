@@ -23,6 +23,14 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
         - Conditional Distributions
         - Covariance
         - Inequalities, Bounds, Theorems
+* Lecture 3 (11 Jan, Thu)
+    - Introduction (contd.)
+        - Statistical Inference
+            - Frequentist vs. Bayesian Inference
+            - Random Sampling
+            - Order Statistics
+            - Estimators
+            - An Example
 
 # Grading Policy
 * Quiz-1: 10%
