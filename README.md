@@ -31,6 +31,15 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
             - Order Statistics
             - Estimators
             - An Example
+            - Likelihood and Log Likelihood
+* Lecture 4 (18 Jan, Thu)
+    - Introduction
+        - Statistical Inference
+            - Likelihood and Log Likelihood (contd.)
+            - Maximum Likelihood Estimators
+            - MLEs for Images
+            - Bayesian Inference
+    - Basics of Neural Networks
 
 # Grading Policy
 * Quiz-1: 10%
