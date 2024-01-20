@@ -40,6 +40,9 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
             - MLEs for Images
             - Bayesian Inference
     - Basics of Neural Networks
+* Lecture 5 (20 Jan, Sat)
+    - Basics of Neural Networks (contd.)
+    - Generative Modelling
 
 # Grading Policy
 * Quiz-1: 10%
