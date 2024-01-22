@@ -43,6 +43,11 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
 * Lecture 5 (20 Jan, Sat)
     - Basics of Neural Networks (contd.)
     - Generative Modelling
+* Lecture 6 (22 Jan, Mon)
+    - Generative Modelling (contd.)
+        - Divergence Measures
+            - KL-Divergence
+            - F-Divergence
 
 # Grading Policy
 * Quiz-1: 10%
