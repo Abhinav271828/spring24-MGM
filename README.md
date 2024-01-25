@@ -48,6 +48,13 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
         - Divergence Measures
             - KL-Divergence
             - F-Divergence
+* Lecture 7 (25 Jan, Thu)
+    - Aside: Basics of Analysis and Topology
+    - Generative Modelling
+        - Divergence Measures
+            - JS-Divergence
+            - F-Divergence
+        - Generative Adversarial Networks
 
 # Grading Policy
 * Quiz-1: 10%

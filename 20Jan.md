@@ -2,7 +2,7 @@
 title: Mathematics of Generative Models
 subtitle: |
           | Spring 2024, IIIT Hyderabad
-          | 20 January, Saturday (Lecture 4)
+          | 20 January, Saturday (Lecture 5)
 author:
 ---
 
