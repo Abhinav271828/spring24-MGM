@@ -24,9 +24,9 @@ In the $n$-dimensional case, we have therefore
 $$L(x_1, \dots, x_n; \theta_1, \theta_2) = \frac1{(2\pi)^\frac{n}2(\theta_2)^\frac{n}2}\exp\left(-\frac1{2\theta_2}\sum_{i=1}^n(x_i - \theta_1)^2\right).$$
 
 To identify the MLEs $\hat{\theta_1}_\text{ML}$ and $\hat{\theta_2}_\text{ML}$, we optimize $L$ w.r.t $\theta_1$ and $\theta_2$. This gives us
-$$\hat{\theta}_1 = \frac1n \sum_{i=1}^n x_i$$
+$$\hat{\theta_1} = \frac1n \sum_{i=1}^n x_i$$
 and
-$$\hat{\theta}_2 = \frac1n \sum_{i=1}^n (x_i - \hat{\theta_1})^2.$$
+$$\hat{\theta_2} = \frac1n \sum_{i=1}^n (x_i - \hat{\theta_1})^2.$$
 
 #### MLEs for Images
 Consider an image made up of $n$ pixels, each of which can be black or white. We can model this with $n$ Bernoulli RVs $X_1, \dots, X_n$, where $X_i \in \{0, 1\}$.
