@@ -54,7 +54,14 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
         - Divergence Measures
             - JS-Divergence
             - F-Divergence
+        - Divergences as Estimators
+* Lecture 8 (01 Feb, Thu)
+    - [MISSED]
+* Lecture 9 (05 Feb, Mon)
+    - Generative Modelling
+        - Divergences as Estimators (contd.)
         - Generative Adversarial Networks
+            - Theory of GANs
 
 # Grading Policy
 * Quiz-1: 10%

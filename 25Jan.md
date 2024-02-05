@@ -60,7 +60,7 @@ We get back KL-divergence by letting $f(x) = x\log x$. Also, if $f(x) = -\log x$
 We can prove that the $f$-divergence is always nonnegative.
 $$D_f(p \mid\mid q) = \mathbb{E}_{x \sim q}\left[f\left(\frac{p(x)}{q(x)}\right)\right] \geq f \left(\mathbb{E}_{x \sim q} \left[\frac{p(x)}{q(x)}\right]\right) = f(1) = 0.$$
 
-## Generative Adversarial Networks
+## Divergences as Estimators
 It can be proved that MLE minimizes KL divergence.
 $$\begin{align*}
 \argmin_\theta D(p \mid\mid p_\theta) &= \argmin_\theta H(p) + D(p \mid\mid p_\theta) \\
