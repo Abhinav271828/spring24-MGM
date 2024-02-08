@@ -55,6 +55,12 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
             - JS-Divergence
             - F-Divergence
         - Generative Adversarial Networks
+* Lecture 8 (05 Feb, Mon) [Lost]
+    - Generative Modelling
+        - Generative Adversarial Networks (contd.)
+        - Theory of GANs
+* Lecture 9 (08 Feb, Thu)
+    - 
 
 # Grading Policy
 * Quiz-1: 10%
