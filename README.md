@@ -60,7 +60,17 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
         - Generative Adversarial Networks (contd.)
         - Theory of GANs
 * Lecture 9 (08 Feb, Thu)
-    - 
+    - Generative Modelling (contd.)
+        - WGANs
+            - Convex Analysis
+            - Wasserstein Distance
+            - Parametrization for WGANs
+* Lecture 10 (15 Feb, Thu)
+    - Generative Modelling (contd.)
+        - Improved WGANs
+            - Basic Topology
+            - The Real Stuff
+    - Convolutional Neural Networks
 
 # Grading Policy
 * Quiz-1: 10%
