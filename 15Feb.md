@@ -72,6 +72,7 @@ Therefore, the modified objective used in improved WGAN adds a *gradient penalty
 $$L = \mathbb{E}_{\tilde{x}\sim P_g}[D(\tilde{x})] - E_{x \sim P_r}[D(x)] + \lambda\mathbb{E}_{\tilde{x} \sim P_{\tilde{x}}}\left[\left(||\nabla_x D(\tilde{x})||_2 - 1\right)^2\right].$$
 
 # Convolutional Neural Networks
+## Motivation
 All the above objectives were used on neural generative models, primarily in the image domain. The most common architecture in this domain is the convolutional neural network (CNN).
 
 CNNs are motivated by the need for a translation-invariant architecture, which MLPs do not satisfy. For example, a spectrogram should be decoded in the same way regardless of where in it the audio sample is present.  

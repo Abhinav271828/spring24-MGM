@@ -71,6 +71,10 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
             - Basic Topology
             - The Real Stuff
     - Convolutional Neural Networks
+        - Motivation
+* Lecture 11 (19 Feb, Mon)
+    - Convolutional Neural Networks
+        - Architecture
 
 # Grading Policy
 * Quiz-1: 10%
