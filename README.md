@@ -75,6 +75,9 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
 * Lecture 11 (19 Feb, Mon)
     - Convolutional Neural Networks
         - Architecture
+* Lecture 12 (22 Feb, Thu)
+    - Convolutional Neural Networks
+        - Modifications in CNNs
 
 # Grading Policy
 * Quiz-1: 10%
