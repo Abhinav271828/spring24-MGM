@@ -78,6 +78,16 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
 * Lecture 12 (22 Feb, Thu)
     - Convolutional Neural Networks
         - Modifications in CNNs
+* Lecture 13 (04 Mar, Mon)
+    - Deep Learning "Tricks"
+        - Initialization
+            - Xavier Initialization
+            - He's Initialization [Skimmed]
+        - Skip Connections
+        - Batch Normalization
+        - Highway Network
+    - ResNet
+
 
 # Grading Policy
 * Quiz-1: 10%

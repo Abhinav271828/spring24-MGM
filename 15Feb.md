@@ -28,13 +28,13 @@ In a compact metric space, a 1-Lipschitz function can achieve equality.
 ### The Real Stuff
 Let $\mathbb{P}_r$ and $\mathbb{P}_g$ be two distributions on the compact metric space $\mathcal{X}$. Then there is a 1-Lipschitz function $f^*$ which solves
 $$\max_{||f||_L \leq 1} \mathbb{E}_{y \sim \mathbb{P}_r} [f(y)] - \mathbb{E}_{x \sim \mathbb{P}_g} [f(x)].$$
-Let $\pi$ be the optimal coupling between $P_f$ and $P_g$, defined as
+Let $\pi$ be the optimal coupling between $P_r$ and $P_g$, defined as
 $$\operatorname*{arginf}_{\pi \in \Pi(P_r, P_g)}\mathbb{E}_{y \sim P_r}[f(y)] - \mathbb{E}_{x \sim P_g}[f(x)] (???)$$
 
 Then, if $x_t = (1-t)x+ty$, we have some $t$ for which
 $$\mathbb{P}_{(x,y) \sim \pi}\left[\nabla f^*(x_t) = \frac{y-x_t}{||y-x_t||}\right] = 1.$$
 
-Let $\pi \in \Pi(\mathbb{P}_f, \mathbb{P}_g)$ be the optimal coupling between $\mathbb{P}_f$ and $\mathbb{P}_g$, which minimizes (infimizes)
+Let $\pi \in \Pi(\mathbb{P}_f, \mathbb{P}_g)$ be the optimal coupling between $\mathbb{P}_r$ and $\mathbb{P}_g$, which minimizes (infimizes)
 $$\mathbb{E}_{y \sim \mathbb{P}_g} [f(y)] - \mathbb{E}_{x \sim \mathbb{P}_r} [f(x)].$$
 
 To prove this, note first that since $\pi$ is an optimal coupling,
