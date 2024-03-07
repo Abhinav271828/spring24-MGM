@@ -87,7 +87,11 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
         - Batch Normalization
         - Highway Network
     - ResNet
-
+* Lecture 14 (07 Mar, Thu)
+    - Issues with GANs
+    - Variants of GANs
+        - Progressive GAN
+        - Pix2pix GAN
 
 # Grading Policy
 * Quiz-1: 10%

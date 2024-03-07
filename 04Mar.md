@@ -5,7 +5,6 @@ subtitle: |
           | 04 March, Monday (Lecture 13)
 author:
 ---
-\newcommand{\var}[1]{\text{Var}\left[#1\right]}
 
 # Deep Learning "Tricks"
 ## Initialization
