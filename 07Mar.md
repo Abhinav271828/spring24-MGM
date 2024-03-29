@@ -42,5 +42,24 @@ $$Y' = H(G(Y))$$
 and we want to minimize the error
 $$E = \sum_{p=1}^n\sum_{i=1}^m (Y_i - Y'_i)^2_p.$$
 
-### Masked Autoencoder
-We may randomly remove parts of the input before encoding and decoding it – this ensures that the model is robust to partial destruction of the inputs.
+### Denoising (Masked) Autoencoder
+A masked auto-encoder is a type of encoder-decoder model. It works by taking a input $\hat{x}$ (corrupted from $x$ by *e.g.* masking), which is passed through a transform $f_\theta$ to produce $y$. Then we try to restore $x$ through the transform $g_{\theta'}$, which acts on $y$ to return $z$.
+
+Then the objective function has the form
+$$\argmin_{\theta, \theta'} \mathbb{E}_{q_0(x, \hat{x})}\left[L_H(x, g_{\theta'}(f_\theta(\hat{x})))\right].$$
+
+This ensures that the decoder is *robust to partial destruction of inputs*.
+
+This model is useful for feature representation for various other tasks. It is also useful for image inpainting.
+
+### Loss Engineering: Context Encoders
+Consider how GANs can be used for image inpainting (as context encoders). This requires a reconstruction loss:
+$$L_\text{rec}(x) = ||\hat{M} \odot (x - F((1-\hat{M}) \odot x))||,$$
+which we use to compare the output of the model with the true image *only in the masked region*.
+
+L2 loss is usually used here, but it produces a blurry output. To avoid this, we add a term for *adversarial loss*:
+$$L_\text{adv} = \max_D \mathbb{E}_{x \in \mathcal{X}}[\log(D(x)) + \log(1-D(F((1-\hat{M}) \odot x)))].$$
+Here the input of the generator is neither noise nor a condition, but simply the corrupted (masked) input.
+
+Thus the final loss is
+$$L = \lambda_\text{rec}L_\text{rec} + \lambda_\text{adv}L_\text{adv}.$$

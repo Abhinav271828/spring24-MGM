@@ -92,6 +92,49 @@ Notes and resources for the Mathematics of Generative Models course at IIIT Hyde
     - Variants of GANs
         - Progressive GAN
         - Pix2pix GAN
+            - PCA
+            - Universal Function Approximators
+            - Encoder-Decoder Models
+            - Denoising (Masked) Auto-Encoder
+            - Loss Engineering: Context Encoder
+* Lecture 15 (11 Mar, Mon) [to be filled]
+    - Variants of GANs
+        - Pix2pix GAN (contd.)
+            - Details
+            - Architecture
+            - PatchGAN
+            - Optimization and Inference
+        - StyleGAN
+            - Architecture
+            - The Truncation Trick
+* Lecture 16 (14 Mar, Thu)
+    - Sinkhorn Generative Modelling
+        - Wasserstein as Optimal Transport
+        - Optimal Transport as a Linear Program
+        - Deriving an Algorithm
+* Lecture 17 (18 Mar, Mon)
+    - Sinkhorn Generative Modelling
+        - Deriving an Algorithm (contd.)
+        - Architecture
+    - Diffusion Models
+        - Variational Auto-Encoders
+            - Probabilistic Graphical Models
+            - Variational Inference
+* Lecture 18 (21 Mar, Thu)
+    - Diffusion Models
+        - Variational Auto-Encoders
+            - Variational Inference (contd.)
+            - The VAE Model
+                - KL Divergence between Gaussians
+                - Monte Carlo Estimate
+* Lecture 19 (28 Mar, Thu)
+    - Diffusion Models
+        - Variational Auto-Encoders
+            - The VAE Model
+                - Gradient Computation
+                - Training Process
+            - Conditional Generation
+            - VAE Engineering
 
 # Grading Policy
 * Quiz-1: 10%
